@@ -21,7 +21,6 @@ Tested platforms.
 | Platforms |                                       Status                                       |                      |
 | :-------: | :--------------------------------------------------------------------------------: | :------------------- |
 |  Android  | ![android](https://img.shields.io/badge/Passed-green?logo=android&logoColor=white) | Backend : `rn-webgl` |
-|    Ios    |             ![ios](https://img.shields.io/badge/Unknown-red?logo=ios)              | Can't afford ☕      |
 |    Web    |          ![android](https://img.shields.io/badge/Passed-blue?logo=react)           | Backend : `webgl`    |
 
 ## Run on Expo Go
@@ -103,10 +102,6 @@ Use another YOLOv5 model.
    export const modelURI = `${window.location.origin}/model/<NEW-MODEL>/model.json`;
    ```
 
-5. Done! 😊
+5. Done!👍
 
 **Note** : For custom trained model you need to update `src/utils/labels.json` with your current model labels.
-
-## Reference
-
-https://github.com/ultralytics/yolov5
